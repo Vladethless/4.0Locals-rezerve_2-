@@ -2140,7 +2140,8 @@ img{
 	z-index:10;
 }
 
-.main-slider .content h2{
+.main-slider .content p{
+	font-family: 'Rufina', serif;
 	position:relative;
 	color:#ffffff;
 	font-size:62px;
@@ -2159,7 +2160,7 @@ img{
 	transform: translateY(80px);
 }
 
-.main-slider .active .content h2{
+.main-slider .active .content p{
 	opacity: 1;
 	-webkit-transform: translateX(0);
 	-moz-transform: translateX(0);
@@ -2345,7 +2346,7 @@ img{
 	margin-bottom:30px;
 }
 
-.main-footer .footer-widget h2{
+.main-footer .footer-widget h4{
 	position:relative;
 	font-size:20px;
 	font-weight:400;
@@ -2355,7 +2356,7 @@ img{
 	text-transform:capitalize;
 }
 
-.main-footer .footer-widget h2:after{
+.main-footer .footer-widget h4:after{
 	position:absolute;
 	content:'';
 	left:0px;
@@ -3354,7 +3355,7 @@ img{
 	float:right;
 }
 
-.fluid-section-one .content-column h2{
+.fluid-section-one .content-column h1{
 	position:relative;
 	color:#242424;
 	font-size:40px;
@@ -3400,7 +3401,7 @@ img{
 }
 
 .fluid-section-one.style-two .content-column .bold-text,
-.fluid-section-one.style-two .content-column h2{
+.fluid-section-one.style-two .content-column h1{
 	color:#ffffff;
 }
 
@@ -3478,12 +3479,13 @@ img{
 	border-radius:50%;
 }
 
-.testimonial-block .inner-box .content h3{
+.testimonial-block .inner-box .content p{
 	position:relative;
 	color:#242424;
 	font-size:20px;
 	font-weight:700;
 	line-height:1.4em;
+	font-family: 'Rufina', serif;
 }
 
 .testimonial-block .inner-box .content .title{
@@ -4169,6 +4171,7 @@ img{
 	font-size:18px;
 	font-weight:400;
 	margin-top:14px;
+	font-family: 'Rufina', serif;
 	color:rgba(255,255,255,0.40);
 }
 
